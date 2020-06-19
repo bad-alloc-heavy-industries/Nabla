@@ -7,7 +7,6 @@
 struct Nabla final : public QMainWindow
 {
 private:
-	Q_OBJECT
 	Ui_Nabla ui{};
 
 public:
