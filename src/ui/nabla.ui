@@ -398,7 +398,7 @@
   </action>
   <action name="actionSelectRange">
    <property name="icon">
-    <iconset theme="edit-select-range"/>
+    <iconset theme="edit-select-symbolic"/>
    </property>
    <property name="text">
     <string>&amp;Select Range...</string>
@@ -406,7 +406,7 @@
   </action>
   <action name="actionDeselect">
    <property name="icon">
-    <iconset theme="edit-deselect"/>
+    <iconset theme="edit-select-none"/>
    </property>
    <property name="text">
     <string>Dese&amp;lect</string>
@@ -481,7 +481,7 @@
     <bool>true</bool>
    </property>
    <property name="text">
-    <string>&amp;Show Toolbar</string>
+    <string>Show &amp;Toolbar</string>
    </property>
   </action>
   <action name="actionShow_Statusbar">
