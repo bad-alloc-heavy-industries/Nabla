@@ -212,10 +212,11 @@
     <property name="title">
      <string>&amp;Settings</string>
     </property>
-    <addaction name="actionManageProfiles"/>
-    <addaction name="separator"/>
     <addaction name="actionShow_Toolbar"/>
     <addaction name="actionShow_Statusbar"/>
+    <addaction name="separator"/>
+    <addaction name="actionColourProfiles"/>
+    <addaction name="actionSettings"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -538,6 +539,22 @@
    </property>
    <property name="text">
     <string>&amp;Octal</string>
+   </property>
+  </action>
+  <action name="actionColourProfiles">
+   <property name="icon">
+    <iconset theme="preferences-desktop-theme"/>
+   </property>
+   <property name="text">
+    <string>&amp;Colour Profiles</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="icon">
+    <iconset theme="settings"/>
+   </property>
+   <property name="text">
+    <string>&amp;Settings</string>
    </property>
   </action>
  </widget>
